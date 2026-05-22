@@ -1,0 +1,288 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  --font-mono: "Fira Code", "Ubuntu Mono", "Menlo", "Monaco", "Courier New", monospace;
+
+  --color-slate-950: #020617;
+}
+
+/* ==========================================================================
+   Root & Body — Deep Sea Blue Theme
+   ========================================================================== */
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --color-primary: #3b82f6;
+  --color-primary-glow: rgba(59, 130, 246, 0.3);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-top: env(safe-area-inset-top, 0px);
+}
+
+body {
+  background-color: var(--color-slate-950);
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none; /* Prevent bounce on iOS */
+}
+
+/* ==========================================================================
+   Responsive Typography Scale
+   ========================================================================== */
+
+/* Mobile (≤640px) */
+@media (max-width: 640px) {
+  html { font-size: 15px; }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+  }
+  h3, h4 {
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  p {
+    line-height: 1.75;
+    letter-spacing: 0.02em; /* Better for dense CJK text */
+  }
+}
+
+/* Tablet (641px–1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  html { font-size: 15.5px; }
+
+  h1 {
+    font-size: 1.75rem;
+    letter-spacing: -0.015em;
+  }
+  h2 {
+    font-size: 1.4rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Desktop (>1024px) */
+@media (min-width: 1025px) {
+  html { font-size: 16px; }
+}
+
+/* ==========================================================================
+   Touch Target Optimization
+   ========================================================================== */
+
+@media (hover: none) and (pointer: coarse) {
+  /* Ensure minimum 44x44px touch targets on mobile */
+  button, a, [role="button"], input[type="submit"] {
+    -webkit-tap-highlight-color: transparent;
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Slightly larger inputs on touch devices */
+  input, textarea, select {
+    font-size: 16px !important; /* Prevent iOS zoom on focus */
+    min-height: 44px;
+  }
+
+  /* Wider spacing between interactive elements */
+  .touch-spacing > * + * {
+    margin-top: 8px;
+  }
+}
+
+/* ==========================================================================
+   Custom Scrollbar (Deep Sea Blue)
+   ========================================================================== */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.4);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ==========================================================================
+   Glassmorphism Utility
+   ========================================================================== */
+
+.glass-panel {
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-strong {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ==========================================================================
+   Safe Area Insets (iPhone notch, Android gesture nav)
+   ========================================================================== */
+
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-x {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* ==========================================================================
+   Responsive Card Grid System
+   ========================================================================== */
+
+.responsive-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .responsive-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Stats grid — always 2 cols on mobile, 4 on desktop */
+.stats-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   Responsive Spacing Utilities
+   ========================================================================== */
+
+.section-padding {
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .section-padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding: 2rem;
+  }
+}
+
+/* ==========================================================================
+   Adaptive Animations (reduce motion for a11y)
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   Landscape Orientation Fix (small height devices)
+   ========================================================================== */
+
+@media (max-height: 500px) and (orientation: landscape) {
+  .mobile-bottom-nav {
+    height: 48px;
+  }
+  .mobile-bottom-nav span {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Focus Visible (keyboard accessibility)
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

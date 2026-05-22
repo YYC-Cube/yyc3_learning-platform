@@ -1,0 +1,1080 @@
+{
+  "export_time": "2026-05-22T16:32:44.720312",
+  "engine_version": "v3.0.0",
+  "total_documents": 51,
+  "documents": {
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/00-项目总览索引/00-项目总览索引-001-项目总览手册.md": {
+      "file_name": "00-项目总览索引-001-项目总览手册.md",
+      "description": "项目立项核心依据与目标范围",
+      "version": "v3.0.0",
+      "checksum": "369cf719ec40b533",
+      "trace_id": "YYC3-4163370F0DA8",
+      "tags": [
+        "00-项目总览索引",
+        "项目总览手册"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/00-项目总览索引/00-项目总览索引-002-文档架构导航.md": {
+      "file_name": "00-项目总览索引-002-文档架构导航.md",
+      "description": "文档体系导航与索引",
+      "version": "v3.0.0",
+      "checksum": "240626a47ece853d",
+      "trace_id": "YYC3-5CE5290A1190",
+      "tags": [
+        "00-项目总览索引",
+        "文档架构导航"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/00-项目总览索引/00-项目总览索引-003-快速开始指南.md": {
+      "file_name": "00-项目总览索引-003-快速开始指南.md",
+      "description": "项目快速启动与使用指南",
+      "version": "v3.0.0",
+      "checksum": "37b4f330e90b0e85",
+      "trace_id": "YYC3-E4747559A5D0",
+      "tags": [
+        "00-项目总览索引",
+        "快速开始指南"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/00-项目总览索引/00-项目总览索引-004-核心概念词典.md": {
+      "file_name": "00-项目总览索引-004-核心概念词典.md",
+      "description": "项目核心概念与术语定义",
+      "version": "v3.0.0",
+      "checksum": "33ba47d63e86422f",
+      "trace_id": "YYC3-E1B2BEE7E5A3",
+      "tags": [
+        "00-项目总览索引",
+        "核心概念词典"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/00-项目总览索引/00-项目总览索引-005-版本更新日志.md": {
+      "file_name": "00-项目总览索引-005-版本更新日志.md",
+      "description": "项目版本迭代与变更记录",
+      "version": "v3.0.0",
+      "checksum": "5607191f793ad7d6",
+      "trace_id": "YYC3-042694BF8D4D",
+      "tags": [
+        "00-项目总览索引",
+        "版本更新日志"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0101-项目规划/0101-项目规划-001-项目章程与愿景.md": {
+      "file_name": "0101-项目规划-001-项目章程与愿景.md",
+      "description": "项目立项核心依据",
+      "version": "v3.0.0",
+      "checksum": "0b8c1a2be3ba5de1",
+      "trace_id": "YYC3-D18952AE46ED",
+      "tags": [
+        "0101-项目规划",
+        "项目章程与愿景"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0101-项目规划/0101-项目规划-002-项目范围说明书.md": {
+      "file_name": "0101-项目规划-002-项目范围说明书.md",
+      "description": "项目范围边界定义",
+      "version": "v3.0.0",
+      "checksum": "6c30c68b5dd06a94",
+      "trace_id": "YYC3-1BB73A2674B0",
+      "tags": [
+        "0101-项目规划",
+        "项目范围说明书"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0101-项目规划/0101-项目规划-003-项目里程碑计划.md": {
+      "file_name": "0101-项目规划-003-项目里程碑计划.md",
+      "description": "阶段里程碑与任务拆解",
+      "version": "v3.0.0",
+      "checksum": "1def9826ac359f12",
+      "trace_id": "YYC3-590EDFBB5E41",
+      "tags": [
+        "0101-项目规划",
+        "项目里程碑计划"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0101-项目规划/0101-项目规划-004-项目资源规划.md": {
+      "file_name": "0101-项目规划-004-项目资源规划.md",
+      "description": "资源统筹分配",
+      "version": "v3.0.0",
+      "checksum": "84fdd011e441f109",
+      "trace_id": "YYC3-FE4F738A6C99",
+      "tags": [
+        "0101-项目规划",
+        "项目资源规划"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0101-项目规划/0101-项目规划-005-干系人管理计划.md": {
+      "file_name": "0101-项目规划-005-干系人管理计划.md",
+      "description": "相关方识别与沟通策略",
+      "version": "v3.0.0",
+      "checksum": "7a292714b1289811",
+      "trace_id": "YYC3-4BC9E7432A09",
+      "tags": [
+        "0101-项目规划",
+        "干系人管理计划"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0102-需求规划/0102-需求规划-001-业务需求分析.md": {
+      "file_name": "0102-需求规划-001-业务需求分析.md",
+      "description": "核心业务需求梳理",
+      "version": "v3.0.0",
+      "checksum": "f69e43fcbeaf2fca",
+      "trace_id": "YYC3-4A59DF3A6BEC",
+      "tags": [
+        "0102-需求规划",
+        "业务需求分析"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0102-需求规划/0102-需求规划-002-用户需求调研报告.md": {
+      "file_name": "0102-需求规划-002-用户需求调研报告.md",
+      "description": "用户痛点与期望分析",
+      "version": "v3.0.0",
+      "checksum": "14739d989c96f08b",
+      "trace_id": "YYC3-F4B34EFB8619",
+      "tags": [
+        "0102-需求规划",
+        "用户需求调研报告"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0102-需求规划/0102-需求规划-003-产品需求文档-PRD.md": {
+      "file_name": "0102-需求规划-003-产品需求文档-PRD.md",
+      "description": "功能规格与验收标准",
+      "version": "v3.0.0",
+      "checksum": "eb62fe6f7ce11820",
+      "trace_id": "YYC3-04E7D52A0590",
+      "tags": [
+        "0102-需求规划",
+        "产品需求文档-PRD"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0102-需求规划/0102-需求规划-004-需求优先级矩阵.md": {
+      "file_name": "0102-需求规划-004-需求优先级矩阵.md",
+      "description": "需求优先级评估排序",
+      "version": "v3.0.0",
+      "checksum": "f9ba245914a28081",
+      "trace_id": "YYC3-8B56EBCD62BA",
+      "tags": [
+        "0102-需求规划",
+        "需求优先级矩阵"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0103-可行性分析/0103-可行性分析-001-技术可行性分析.md": {
+      "file_name": "0103-可行性分析-001-技术可行性分析.md",
+      "description": "技术风险评估",
+      "version": "v3.0.0",
+      "checksum": "5188a0a662b82970",
+      "trace_id": "YYC3-F28ED68822A9",
+      "tags": [
+        "0103-可行性分析",
+        "技术可行性分析"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0103-可行性分析/0103-可行性分析-002-经济可行性分析.md": {
+      "file_name": "0103-可行性分析-002-经济可行性分析.md",
+      "description": "成本效益分析",
+      "version": "v3.0.0",
+      "checksum": "e5e9b6d847e63ef6",
+      "trace_id": "YYC3-B06518774C73",
+      "tags": [
+        "0103-可行性分析",
+        "经济可行性分析"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0103-可行性分析/0103-可行性分析-003-市场可行性分析.md": {
+      "file_name": "0103-可行性分析-003-市场可行性分析.md",
+      "description": "市场前景与竞争分析",
+      "version": "v3.0.0",
+      "checksum": "018572156383760e",
+      "trace_id": "YYC3-1DC203869032",
+      "tags": [
+        "0103-可行性分析",
+        "市场可行性分析"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0103-可行性分析/0103-可行性分析-004-操作可行性分析.md": {
+      "file_name": "0103-可行性分析-004-操作可行性分析.md",
+      "description": "实施难度与运营风险",
+      "version": "v3.0.0",
+      "checksum": "54afaa60357c1da8",
+      "trace_id": "YYC3-59B2EB8DC333",
+      "tags": [
+        "0103-可行性分析",
+        "操作可行性分析"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0104-风险管理/0104-风险管理-001-项目初期风险评估.md": {
+      "file_name": "0104-风险管理-001-项目初期风险评估.md",
+      "description": "全周期风险识别",
+      "version": "v3.0.0",
+      "checksum": "f88e327d6873ded8",
+      "trace_id": "YYC3-154D3E1E013B",
+      "tags": [
+        "0104-风险管理",
+        "项目初期风险评估"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0104-风险管理/0104-风险管理-002-风险应对预案.md": {
+      "file_name": "0104-风险管理-002-风险应对预案.md",
+      "description": "风险应对策略",
+      "version": "v3.0.0",
+      "checksum": "756286012acb6633",
+      "trace_id": "YYC3-D8C045B88E47",
+      "tags": [
+        "0104-风险管理",
+        "风险应对预案"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0104-风险管理/0104-风险管理-003-项目预算与成本控制.md": {
+      "file_name": "0104-风险管理-003-项目预算与成本控制.md",
+      "description": "预算编制与控制",
+      "version": "v3.0.0",
+      "checksum": "dadc2b82f4e454c5",
+      "trace_id": "YYC3-8E2CC397491A",
+      "tags": [
+        "0104-风险管理",
+        "项目预算与成本控制"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/01-启动规划阶段/0104-风险管理/0104-风险管理-004-项目成功标准定义.md": {
+      "file_name": "0104-风险管理-004-项目成功标准定义.md",
+      "description": "成功度量指标",
+      "version": "v3.0.0",
+      "checksum": "f64d536a550aec74",
+      "trace_id": "YYC3-084B32CC15D5",
+      "tags": [
+        "0104-风险管理",
+        "项目成功标准定义"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-001-系统架构总览图.md": {
+      "file_name": "0201-架构设计-001-系统架构总览图.md",
+      "description": "整体架构视图",
+      "version": "v3.0.0",
+      "checksum": "8be44c244d4a7cd3",
+      "trace_id": "YYC3-14329FFFE7AC",
+      "tags": [
+        "0201-架构设计",
+        "系统架构总览图"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-002-九层功能架构设计.md": {
+      "file_name": "0201-架构设计-002-九层功能架构设计.md",
+      "description": "分层架构设计",
+      "version": "v3.0.0",
+      "checksum": "8fc4a7b685602c46",
+      "trace_id": "YYC3-DB87335E26E4",
+      "tags": [
+        "0201-架构设计",
+        "九层功能架构设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-003-技术选型论证报告.md": {
+      "file_name": "0201-架构设计-003-技术选型论证报告.md",
+      "description": "技术栈选型依据",
+      "version": "v3.0.0",
+      "checksum": "ace7b93240d88a26",
+      "trace_id": "YYC3-F89EB257CC74",
+      "tags": [
+        "0201-架构设计",
+        "技术选型论证报告"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-004-微服务架构设计.md": {
+      "file_name": "0201-架构设计-004-微服务架构设计.md",
+      "description": "服务拆分与治理",
+      "version": "v3.0.0",
+      "checksum": "2aeb70d412d8df95",
+      "trace_id": "YYC3-BD5C58906D50",
+      "tags": [
+        "0201-架构设计",
+        "微服务架构设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-005-网络拓扑图.md": {
+      "file_name": "0201-架构设计-005-网络拓扑图.md",
+      "description": "网络架构设计",
+      "version": "v3.0.0",
+      "checksum": "c4b6f4ce1e7d169f",
+      "trace_id": "YYC3-5CF3F1B84F08",
+      "tags": [
+        "0201-架构设计",
+        "网络拓扑图"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0201-架构设计/0201-架构设计-006-高可用设计.md": {
+      "file_name": "0201-架构设计-006-高可用设计.md",
+      "description": "容灾与高可用方案",
+      "version": "v3.0.0",
+      "checksum": "25000a2b488a382f",
+      "trace_id": "YYC3-A7AC4F036B92",
+      "tags": [
+        "0201-架构设计",
+        "高可用设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/基础设施层/基础设施层-001-基础设施层设计.md": {
+      "file_name": "基础设施层-001-基础设施层设计.md",
+      "description": "云基础设施与部署架构",
+      "version": "v3.0.0",
+      "checksum": "f26f56a17497c5a0",
+      "trace_id": "YYC3-66F2D7DB35D7",
+      "tags": [
+        "基础设施层",
+        "基础设施层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/数据存储层/数据存储层-001-数据存储层设计.md": {
+      "file_name": "数据存储层-001-数据存储层设计.md",
+      "description": "数据模型与存储方案",
+      "version": "v3.0.0",
+      "checksum": "f587fbcb747a41a9",
+      "trace_id": "YYC3-01D80E03CA1F",
+      "tags": [
+        "数据存储层",
+        "数据存储层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/核心服务层/核心服务层-001-核心服务层设计.md": {
+      "file_name": "核心服务层-001-核心服务层设计.md",
+      "description": "核心业务服务架构",
+      "version": "v3.0.0",
+      "checksum": "2b9ea98de0e7322a",
+      "trace_id": "YYC3-DCB7986FC85C",
+      "tags": [
+        "核心服务层",
+        "核心服务层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/AI智能层/AI智能层-001-AI智能层设计.md": {
+      "file_name": "AI智能层-001-AI智能层设计.md",
+      "description": "AI模型与智能服务架构",
+      "version": "v3.0.0",
+      "checksum": "03e7ee69ad9dc383",
+      "trace_id": "YYC3-D6A10E7B00E2",
+      "tags": [
+        "AI智能层",
+        "AI智能层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/业务逻辑层/业务逻辑层-001-业务逻辑层设计.md": {
+      "file_name": "业务逻辑层-001-业务逻辑层设计.md",
+      "description": "业务逻辑与流程设计",
+      "version": "v3.0.0",
+      "checksum": "9b3c94452eeb7043",
+      "trace_id": "YYC3-B35B5ED4D3DF",
+      "tags": [
+        "业务逻辑层",
+        "业务逻辑层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/应用表现层/应用表现层-001-应用表现层设计.md": {
+      "file_name": "应用表现层-001-应用表现层设计.md",
+      "description": "前端应用与UI架构",
+      "version": "v3.0.0",
+      "checksum": "191fbca855b6a0b4",
+      "trace_id": "YYC3-315A3ECCCF33",
+      "tags": [
+        "应用表现层",
+        "应用表现层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/02-项目设计阶段/0202-详细设计/用户交互层/用户交互层-001-用户交互层设计.md": {
+      "file_name": "用户交互层-001-用户交互层设计.md",
+      "description": "用户体验与交互设计",
+      "version": "v3.0.0",
+      "checksum": "d00d15470bae18c6",
+      "trace_id": "YYC3-D0CA1D4AF603",
+      "tags": [
+        "用户交互层",
+        "用户交互层设计"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/03-开发实施阶段/0301-开发环境/0301-开发环境-001-开发环境搭建指南.md": {
+      "file_name": "0301-开发环境-001-开发环境搭建指南.md",
+      "description": "环境配置说明",
+      "version": "v3.0.0",
+      "checksum": "1a64a112ef0a9b2a",
+      "trace_id": "YYC3-C2F686EB3C71",
+      "tags": [
+        "0301-开发环境",
+        "开发环境搭建指南"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/03-开发实施阶段/0301-开发环境/0301-开发环境-002-多环境配置规范.md": {
+      "file_name": "0301-开发环境-002-多环境配置规范.md",
+      "description": "环境隔离策略",
+      "version": "v3.0.0",
+      "checksum": "cd385ce86aa2223b",
+      "trace_id": "YYC3-B192F61312BB",
+      "tags": [
+        "0301-开发环境",
+        "多环境配置规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/03-开发实施阶段/0302-开发规范/0302-开发规范-001-Git工作流规范.md": {
+      "file_name": "0302-开发规范-001-Git工作流规范.md",
+      "description": "分支管理策略",
+      "version": "v3.0.0",
+      "checksum": "a88371d94527a8c1",
+      "trace_id": "YYC3-5A98587E8C8C",
+      "tags": [
+        "0302-开发规范",
+        "Git工作流规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/03-开发实施阶段/0302-开发规范/0302-开发规范-002-代码提交规范.md": {
+      "file_name": "0302-开发规范-002-代码提交规范.md",
+      "description": "提交信息格式",
+      "version": "v3.0.0",
+      "checksum": "7ded3932f5c29c69",
+      "trace_id": "YYC3-C3484C28A2B7",
+      "tags": [
+        "0302-开发规范",
+        "代码提交规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/03-开发实施阶段/0302-开发规范/0302-开发规范-003-代码注释规范.md": {
+      "file_name": "0302-开发规范-003-代码注释规范.md",
+      "description": "注释标准格式",
+      "version": "v3.0.0",
+      "checksum": "c60c1053428953e3",
+      "trace_id": "YYC3-19C46976212A",
+      "tags": [
+        "0302-开发规范",
+        "代码注释规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/04-测试审核阶段/0401-测试策略/0401-测试策略-001-测试策略总纲.md": {
+      "file_name": "0401-测试策略-001-测试策略总纲.md",
+      "description": "整体测试方案",
+      "version": "v3.0.0",
+      "checksum": "33f3567de1752c15",
+      "trace_id": "YYC3-A6E2480F814B",
+      "tags": [
+        "0401-测试策略",
+        "测试策略总纲"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/04-测试审核阶段/0401-测试策略/0401-测试策略-002-测试环境管理规范.md": {
+      "file_name": "0401-测试策略-002-测试环境管理规范.md",
+      "description": "测试环境配置",
+      "version": "v3.0.0",
+      "checksum": "0109531b482435d1",
+      "trace_id": "YYC3-B4B170380C84",
+      "tags": [
+        "0401-测试策略",
+        "测试环境管理规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/04-测试审核阶段/0406-质量审核/0406-质量审核-001-代码质量审核标准.md": {
+      "file_name": "0406-质量审核-001-代码质量审核标准.md",
+      "description": "代码质量度量",
+      "version": "v3.0.0",
+      "checksum": "d5ee77f9fde9956a",
+      "trace_id": "YYC3-80B02FC73A87",
+      "tags": [
+        "0406-质量审核",
+        "代码质量审核标准"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/04-测试审核阶段/0406-质量审核/0406-质量审核-002-质量门禁标准.md": {
+      "file_name": "0406-质量审核-002-质量门禁标准.md",
+      "description": "质量准入准出标准",
+      "version": "v3.0.0",
+      "checksum": "c025c944702a53c1",
+      "trace_id": "YYC3-E1DEE2B37DCA",
+      "tags": [
+        "0406-质量审核",
+        "质量门禁标准"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/05-交付部署阶段/0507-交付物管理/0507-交付物管理-001-交付物清单.md": {
+      "file_name": "0507-交付物管理-001-交付物清单.md",
+      "description": "交付物列表",
+      "version": "v3.0.0",
+      "checksum": "4b110bf50e81cc81",
+      "trace_id": "YYC3-4E5A0F785F23",
+      "tags": [
+        "0507-交付物管理",
+        "交付物清单"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/05-交付部署阶段/0507-交付物管理/0507-交付物管理-002-交付验收标准.md": {
+      "file_name": "0507-交付物管理-002-交付验收标准.md",
+      "description": "验收标准定义",
+      "version": "v3.0.0",
+      "checksum": "0e01dea1e6d61867",
+      "trace_id": "YYC3-C7CA358A081E",
+      "tags": [
+        "0507-交付物管理",
+        "交付验收标准"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/06-运维保障阶段/0601-运维策略/0601-运维策略-001-运维策略总纲.md": {
+      "file_name": "0601-运维策略-001-运维策略总纲.md",
+      "description": "运维整体方案",
+      "version": "v3.0.0",
+      "checksum": "275dfcccb147a38d",
+      "trace_id": "YYC3-A3652B3BCA90",
+      "tags": [
+        "0601-运维策略",
+        "运维策略总纲"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/07-合规安全保障/0702-安全管理/0702-安全管理-001-安全开发规范.md": {
+      "file_name": "0702-安全管理-001-安全开发规范.md",
+      "description": "安全编码标准",
+      "version": "v3.0.0",
+      "checksum": "3a0585f2d8848048",
+      "trace_id": "YYC3-2E37DC911A6D",
+      "tags": [
+        "0702-安全管理",
+        "安全开发规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/07-合规安全保障/0702-安全管理/0702-安全管理-002-安全运维规范.md": {
+      "file_name": "0702-安全管理-002-安全运维规范.md",
+      "description": "安全运维流程",
+      "version": "v3.0.0",
+      "checksum": "1a6932e8865dc129",
+      "trace_id": "YYC3-D011C2378BC8",
+      "tags": [
+        "0702-安全管理",
+        "安全运维规范"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/08-资产知识管理/0801-资产管理/0801-资产管理-001-资产清单.md": {
+      "file_name": "0801-资产管理-001-资产清单.md",
+      "description": "项目资产列表",
+      "version": "v3.0.0",
+      "checksum": "8d5b331a550d0732",
+      "trace_id": "YYC3-1066FABBE6F2",
+      "tags": [
+        "0801-资产管理",
+        "资产清单"
+      ],
+      "related_docs": []
+    },
+    "/Users/yanyu/Downloads/YYC3-Learning-Platform/docs/09-智能演进优化/0907-质量提升/0907-质量提升-001-持续改进计划.md": {
+      "file_name": "0907-质量提升-001-持续改进计划.md",
+      "description": "优化改进方案",
+      "version": "v3.0.0",
+      "checksum": "06df56de6394b774",
+      "trace_id": "YYC3-34FFDE140542",
+      "tags": [
+        "0907-质量提升",
+        "持续改进计划"
+      ],
+      "related_docs": []
+    }
+  },
+  "traceability_chain": [
+    {
+      "timestamp": "2026-05-22T16:32:44.709804",
+      "document": "00-项目总览索引-001-项目总览手册.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "369cf719ec40b533",
+      "trace_id": "YYC3-4163370F0DA8",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.709917",
+      "document": "00-项目总览索引-002-文档架构导航.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "240626a47ece853d",
+      "trace_id": "YYC3-5CE5290A1190",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710016",
+      "document": "00-项目总览索引-003-快速开始指南.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "37b4f330e90b0e85",
+      "trace_id": "YYC3-E4747559A5D0",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710100",
+      "document": "00-项目总览索引-004-核心概念词典.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "33ba47d63e86422f",
+      "trace_id": "YYC3-E1B2BEE7E5A3",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710191",
+      "document": "00-项目总览索引-005-版本更新日志.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "5607191f793ad7d6",
+      "trace_id": "YYC3-042694BF8D4D",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710455",
+      "document": "0101-项目规划-001-项目章程与愿景.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "0b8c1a2be3ba5de1",
+      "trace_id": "YYC3-D18952AE46ED",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710560",
+      "document": "0101-项目规划-002-项目范围说明书.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "6c30c68b5dd06a94",
+      "trace_id": "YYC3-1BB73A2674B0",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710646",
+      "document": "0101-项目规划-003-项目里程碑计划.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "1def9826ac359f12",
+      "trace_id": "YYC3-590EDFBB5E41",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710731",
+      "document": "0101-项目规划-004-项目资源规划.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "84fdd011e441f109",
+      "trace_id": "YYC3-FE4F738A6C99",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.710823",
+      "document": "0101-项目规划-005-干系人管理计划.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "7a292714b1289811",
+      "trace_id": "YYC3-4BC9E7432A09",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711068",
+      "document": "0102-需求规划-001-业务需求分析.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f69e43fcbeaf2fca",
+      "trace_id": "YYC3-4A59DF3A6BEC",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711150",
+      "document": "0102-需求规划-002-用户需求调研报告.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "14739d989c96f08b",
+      "trace_id": "YYC3-F4B34EFB8619",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711233",
+      "document": "0102-需求规划-003-产品需求文档-PRD.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "eb62fe6f7ce11820",
+      "trace_id": "YYC3-04E7D52A0590",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711321",
+      "document": "0102-需求规划-004-需求优先级矩阵.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f9ba245914a28081",
+      "trace_id": "YYC3-8B56EBCD62BA",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711533",
+      "document": "0103-可行性分析-001-技术可行性分析.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "5188a0a662b82970",
+      "trace_id": "YYC3-F28ED68822A9",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711626",
+      "document": "0103-可行性分析-002-经济可行性分析.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "e5e9b6d847e63ef6",
+      "trace_id": "YYC3-B06518774C73",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711718",
+      "document": "0103-可行性分析-003-市场可行性分析.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "018572156383760e",
+      "trace_id": "YYC3-1DC203869032",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.711810",
+      "document": "0103-可行性分析-004-操作可行性分析.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "54afaa60357c1da8",
+      "trace_id": "YYC3-59B2EB8DC333",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712028",
+      "document": "0104-风险管理-001-项目初期风险评估.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f88e327d6873ded8",
+      "trace_id": "YYC3-154D3E1E013B",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712115",
+      "document": "0104-风险管理-002-风险应对预案.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "756286012acb6633",
+      "trace_id": "YYC3-D8C045B88E47",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712205",
+      "document": "0104-风险管理-003-项目预算与成本控制.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "dadc2b82f4e454c5",
+      "trace_id": "YYC3-8E2CC397491A",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712286",
+      "document": "0104-风险管理-004-项目成功标准定义.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f64d536a550aec74",
+      "trace_id": "YYC3-084B32CC15D5",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712623",
+      "document": "0201-架构设计-001-系统架构总览图.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "8be44c244d4a7cd3",
+      "trace_id": "YYC3-14329FFFE7AC",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712703",
+      "document": "0201-架构设计-002-九层功能架构设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "8fc4a7b685602c46",
+      "trace_id": "YYC3-DB87335E26E4",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712783",
+      "document": "0201-架构设计-003-技术选型论证报告.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "ace7b93240d88a26",
+      "trace_id": "YYC3-F89EB257CC74",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712862",
+      "document": "0201-架构设计-004-微服务架构设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "2aeb70d412d8df95",
+      "trace_id": "YYC3-BD5C58906D50",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.712946",
+      "document": "0201-架构设计-005-网络拓扑图.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "c4b6f4ce1e7d169f",
+      "trace_id": "YYC3-5CF3F1B84F08",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.713032",
+      "document": "0201-架构设计-006-高可用设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "25000a2b488a382f",
+      "trace_id": "YYC3-A7AC4F036B92",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.713291",
+      "document": "基础设施层-001-基础设施层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f26f56a17497c5a0",
+      "trace_id": "YYC3-66F2D7DB35D7",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.713480",
+      "document": "数据存储层-001-数据存储层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "f587fbcb747a41a9",
+      "trace_id": "YYC3-01D80E03CA1F",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.713665",
+      "document": "核心服务层-001-核心服务层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "2b9ea98de0e7322a",
+      "trace_id": "YYC3-DCB7986FC85C",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.713869",
+      "document": "AI智能层-001-AI智能层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "03e7ee69ad9dc383",
+      "trace_id": "YYC3-D6A10E7B00E2",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.714233",
+      "document": "业务逻辑层-001-业务逻辑层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "9b3c94452eeb7043",
+      "trace_id": "YYC3-B35B5ED4D3DF",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.714469",
+      "document": "应用表现层-001-应用表现层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "191fbca855b6a0b4",
+      "trace_id": "YYC3-315A3ECCCF33",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.714719",
+      "document": "用户交互层-001-用户交互层设计.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "d00d15470bae18c6",
+      "trace_id": "YYC3-D0CA1D4AF603",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.715199",
+      "document": "0301-开发环境-001-开发环境搭建指南.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "1a64a112ef0a9b2a",
+      "trace_id": "YYC3-C2F686EB3C71",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.715320",
+      "document": "0301-开发环境-002-多环境配置规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "cd385ce86aa2223b",
+      "trace_id": "YYC3-B192F61312BB",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.715523",
+      "document": "0302-开发规范-001-Git工作流规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "a88371d94527a8c1",
+      "trace_id": "YYC3-5A98587E8C8C",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.715610",
+      "document": "0302-开发规范-002-代码提交规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "7ded3932f5c29c69",
+      "trace_id": "YYC3-C3484C28A2B7",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.715694",
+      "document": "0302-开发规范-003-代码注释规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "c60c1053428953e3",
+      "trace_id": "YYC3-19C46976212A",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716013",
+      "document": "0401-测试策略-001-测试策略总纲.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "33f3567de1752c15",
+      "trace_id": "YYC3-A6E2480F814B",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716098",
+      "document": "0401-测试策略-002-测试环境管理规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "0109531b482435d1",
+      "trace_id": "YYC3-B4B170380C84",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716312",
+      "document": "0406-质量审核-001-代码质量审核标准.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "d5ee77f9fde9956a",
+      "trace_id": "YYC3-80B02FC73A87",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716392",
+      "document": "0406-质量审核-002-质量门禁标准.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "c025c944702a53c1",
+      "trace_id": "YYC3-E1DEE2B37DCA",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716718",
+      "document": "0507-交付物管理-001-交付物清单.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "4b110bf50e81cc81",
+      "trace_id": "YYC3-4E5A0F785F23",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.716806",
+      "document": "0507-交付物管理-002-交付验收标准.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "0e01dea1e6d61867",
+      "trace_id": "YYC3-C7CA358A081E",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.717177",
+      "document": "0601-运维策略-001-运维策略总纲.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "275dfcccb147a38d",
+      "trace_id": "YYC3-A3652B3BCA90",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.717494",
+      "document": "0702-安全管理-001-安全开发规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "3a0585f2d8848048",
+      "trace_id": "YYC3-2E37DC911A6D",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.717588",
+      "document": "0702-安全管理-002-安全运维规范.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "1a6932e8865dc129",
+      "trace_id": "YYC3-D011C2378BC8",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.717947",
+      "document": "0801-资产管理-001-资产清单.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "8d5b331a550d0732",
+      "trace_id": "YYC3-1066FABBE6F2",
+      "author": "YanYuCloudCube Team"
+    },
+    {
+      "timestamp": "2026-05-22T16:32:44.718284",
+      "document": "0907-质量提升-001-持续改进计划.md",
+      "action": "created",
+      "version": "v3.0.0",
+      "checksum": "06df56de6394b774",
+      "trace_id": "YYC3-34FFDE140542",
+      "author": "YanYuCloudCube Team"
+    }
+  ]
+}
