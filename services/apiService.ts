@@ -5,34 +5,33 @@
 // Handles fallback to mock data when backend is unavailable.
 // =============================================================================
 
-import { projectId, publicAnonKey } from '../utils/supabase/info';
 import { detailedModules, updatedMockModules } from '../data/modulesData';
 import type {
-  Task,
-  Post,
-  UserProfile,
-  UserSettings,
-  ModuleProgress,
-  DashboardStats,
-  Achievement,
-  DataExport,
-  SeedPayload,
-  ModuleCardData,
-  FeedbackEntry,
-  FeedbackPayload,
-  SaleRecord,
-  SalesKPI,
-  UserRole,
-  RoadmapData,
-  SprintPhase,
-  Certificate,
-  VideoProgress,
-  PostComment,
-  AIConfigResponse,
-  AIUserSettings,
   AIChatRequest,
   AIChatResponse,
+  AIConfigResponse,
   AIProvider,
+  AIUserSettings,
+  Achievement,
+  Certificate,
+  DashboardStats,
+  DataExport,
+  FeedbackEntry,
+  FeedbackPayload,
+  ModuleCardData,
+  ModuleProgress,
+  Post,
+  PostComment,
+  RoadmapData,
+  SaleRecord,
+  SalesKPI,
+  SeedPayload,
+  SprintPhase,
+  Task,
+  UserProfile,
+  UserRole,
+  UserSettings,
+  VideoProgress,
 } from '../types';
 
 // Default avatar asset for CHINA YANYU (言语)
@@ -45,12 +44,16 @@ export { defaultAvatarAsset };
 // Config
 // ---------------------------------------------------------------------------
 
-const API_BASE = `https://${projectId}.supabase.co/functions/v1/make-server-dae9c128`;
+const API_BASE = typeof window !== 'undefined'
+  ? (import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api')
+  : 'http://localhost:3001/api';
 
-const headers = (): HeadersInit => ({
-  Authorization: `Bearer ${publicAnonKey}`,
-  'Content-Type': 'application/json',
-});
+const headers = (): HeadersInit => {
+  const token = typeof window !== 'undefined' ? localStorage.getItem('yyc3_access_token') : null;
+  const h: HeadersInit = { 'Content-Type': 'application/json' };
+  if (token) h['Authorization'] = `Bearer ${token}`;
+  return h;
+};
 
 // ---------------------------------------------------------------------------
 // Token refresh state (singleton, prevents concurrent refresh races)
@@ -100,7 +103,6 @@ function attemptTokenRefresh(): Promise<string | null> {
       const res = await fetch(`${API_BASE}/auth/refresh`, {
         method: 'POST',
         headers: {
-          Authorization: `Bearer ${publicAnonKey}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ refreshToken }),
