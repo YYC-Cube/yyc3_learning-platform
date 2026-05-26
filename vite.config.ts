@@ -40,11 +40,39 @@ export default defineConfig({
   server: {
     port: 3061,
     strictPort: true,
-    host: true,
+    host: 'localhost',
+    fs: {
+      strict: true,
+      allow: [path.resolve(__dirname, '.')],
+      deny: [
+        '.env',
+        '.env.local',
+        '.env.*.local',
+        '.git',
+        'node_modules',
+        '/etc/passwd',
+        '/etc/shadow',
+        '/.ssh',
+        '~/.ssh',
+      ],
+    },
+    hmr: {
+      protocol: 'ws',
+      host: 'localhost',
+    },
+    cors: false,
+    headers: {
+      'X-Content-Type-Options': 'nosniff',
+      'X-Frame-Options': 'DENY',
+      'X-XSS-Protection': '1; mode=block',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
+      'Content-Security-Policy': "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'",
+    },
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false,
+    target: 'es2022',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -54,5 +82,8 @@ export default defineConfig({
         },
       },
     },
+  },
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'lucide-react', 'motion'],
   },
 });
